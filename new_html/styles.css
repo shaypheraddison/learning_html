@@ -1,0 +1,101 @@
+/* This is a comment in CSS */
+
+h1 {
+    color: crimson;
+    font-size: 5em;
+    position:fixed;
+    top: 0;
+}
+
+h2 {
+    color: springgreen;
+    font-style: oblique;
+}
+
+h6 {
+    font-size: 1000%;
+    font-family: Courier;
+    color: blueviolet;
+}
+
+ul {
+    font-family: Courier;
+    color: teal;
+    list-style: decimal;
+}
+
+.special {
+    color:brown;
+    border: 1mm dashed royalblue;
+    padding: 5px 28% ;
+}
+
+.l1 {
+    color: green;
+    font-size: x-small;
+}
+
+.l2 {
+    color: blueviolet;
+    font-size: small;
+}
+
+.l3 {
+    color: orange;
+    font-size: medium;
+}
+
+.l4 {
+    color: black;
+    font-size: large;
+}
+
+.l5 {
+    color: red;
+    font-size: xx-large;
+}
+
+.p1 {
+    font-family: sans-serif;
+    color:darkorange;
+    font-size: medium;
+}
+
+.p2 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color:gray ;
+}
+
+.p3 {
+    font-family:'Segoe UI', Tahoma, Verdana, sans-serif ;
+    color:hotpink ;
+}
+
+a:link {
+    color:darkgreen;
+}
+
+a:visited {
+    color: tomato;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+.about_me {
+    word-spacing: 30mm;
+}
+
+table {
+    table-layout: auto;
+    width: 85%;
+    background-color: green;
+    color: white;
+    padding: 3px;
+    border: 8px solid orange;
+}
+
+td, th {
+    border: 2px solid whitesmoke;
+}
