@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
     <title>Makeshift HTML Page</title>
 </head>
 
@@ -15,23 +16,34 @@
 
     <section>
         <h2>A New Language !</h2>
-        <p>
+        <p class="p1">
             This is my <em>makeshift</em> HTML page to learn the language.
             HTML stands for Hyper Text Markup Language. HTML is <strong>NOT</strong> a programming language,
             instead it is a markup language. It basically is used to tell the browswer how to display content for the end user.
         </p>
-        <p>
+        <p class="p2">
             Can you tell I am learning how to do this? Here is a good link to learn alongside with me about HTML - 
             <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank"> MDM Web Docs !</a>
         </p>
     </section>
     
     <section>
+        <p>
+            <span class="l1">H</span>
+            <span class="l2">E</span>
+            <span class="l3">L</span>
+            <span class="l4">L</span>
+            <span class="l5">O</span>
+        </p>
+    </section>
+
+    <section>
         <h2>Vin Scully's Final Call</h2>
-        <time>08.02.2022</time>
-        <p><u>The best baseball call from the GOAT of broadcasters.</u></p>
+        <time style="opacity: 0.5;">08.02.2022</time>
+        <!---Tested using the style attribute on the time instead of adding it to the CSS file-->
+        <p class="special">The best baseball call from the GOAT of broadcasters.</p>
         <blockquote cite="https://www.latimes.com/sports/story/2022-08-02/here-are-some-of-vin-scullys-most-memorable-calls-and-quotes#:~:text=His%20final%20words%20as%20a%20Dodgers%20broadcaster%3A&text=May%20God%20give%20you%2C%20for,an%20answer%20for%20each%20prayer">
-            <p>
+            <p class="p3">
                 “You know, friends, so many people have wished me congratulations on a 67-year career in baseball, and they've wished me a wonderful retirement with my family, and now, all I can do is tell you what I wish for you. 
                 May God give you, for every storm, a rainbow; for every tear, a smile; for every care, a promise; and a blessing in each trial. 
                 For every problem life seems, a faithful friend to share; for every sigh, a sweet song, and an answer for each prayer. 
@@ -43,7 +55,7 @@
     </section>
 
     <section>
-        <h3>List of Favorite MLB Teams</h3>
+        <h6>List of Favorite MLB Teams</h6>
         <ul>
             <li>Texas Rangers</li>
             <li>Milwaukee Brewers</li>
@@ -52,7 +64,7 @@
             <li>Tampa Bay Rays</li>
             <li>Toronto Blue Jays</li>
         </ul>
-        <h3>List of Least Favorite MLB Teams</h3>
+        <h6>List of Least Favorite MLB Teams</h6>
         <ul>
             <li>Houston Astros</li>
             <li>New York Yankees</li>
@@ -62,6 +74,6 @@
     <footer>
         <a href="new_about_me.html" target="_blank">About Me</a>
     </footer>
-    
+
 </body>
 </html>
