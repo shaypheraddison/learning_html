@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Splashpage</title>
+    <link rel="stylesheet" href="splash_styles.css">
+</head>
+<body>
+    <main>
+            <aside>
+                <p>
+                    Stay in the loop for exclusive updates on our exquisite gold coins, which are a must-have for board game enthusiasts! 
+                    Featuring a majestic dragon on the front and a sword and shield on the back, these coins add a touch of fantasy to your gaming experience.
+                </p>
+                <p> 
+                    Please enter your email address and phone number for availability updates!
+                </p>
+                
+            </aside>
+
+        <section>
+            <div style="text-align: center;">
+            <img src="coins.jpeg" alt="coins" class="center_img">
+            </div>
+        </section>
+        
+        <section>
+            <h1>Crested Gold Coins</h1>
+        </section>
+
+        <section>
+            <label for="contact_preference" name="contact">Select contact preference:</label>
+            <select name="contact" id="contact_preference">
+                <option value="">**Please select your contact preference**</option>
+                <option value="phone">Phone Number</option>
+                <option value="email">Email</option>
+            </select>
+            <form>
+                <label for="phone number">Phone Number:</label>
+                <input type="tel" name="phone number" placeholder="Enter Here" pattern="[0-9]{3}]-[0-9]{3}-[0-9]{4}">
+
+                <label for="email">Email Address:</label>
+                <input type="email" name="email" placeholder="Enter Here">
+                
+                <input type="submit" value="Submit" onclick="alert('Your information has been submitted. Thank you!')">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
