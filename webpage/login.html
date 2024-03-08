@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="company-styles.css">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html" class="home">Home</a></li>
+                <li><a href="products.html" class="shop">Shop</a></li>
+                <li><a href="about-us.html" class="about">About Us</a></li>
+                <li><a href="contact.html" class="contact">Contact</a></li>
+            </ul>
+
+            <div class="loginbar">
+                <li><a href="login.html" class="login">Login</a></li>
+                <li><a href="cart.html" class="cart">Cart</a></li>
+            </div>
+        </nav>
+    </header>
+
+    <div>
+        <section class="login-sect">
+            <h2 class="login-header">Login</h2>
+
+            <form class="login-form">
+                <label for="username" name="username">Username</label>
+                <input type="text" class="login-un" id="username" name="username" placeholder="Enter Here">
+
+                <label for="password" name="password">Password</label>
+                <input type="password" class="login-pw" id="password" name="password" placeholder="Enter Here">
+
+                <input type="submit" class="login-submit" value="Login" onclick="alert('You are logged in')">
+            </form>
+        </section>
+    </div>
+    
+    <div class="vl"></div>
+
+    <div>
+        <section>
+            <h2 class="create-header">Create Account</h2>
+
+            <form class="create-form">
+                <label for="username" name="username">Username</label>
+                <input type="text" class="create-un" id="username" name="username" placeholder="Enter Here">
+
+                <label for="password" name="password">Password</label>
+                <input type="password" class="create-pw" id="password" name="password" placeholder="Enter Here">
+
+                <label for="email" name="email">Email</label>
+                <input type="email" class="create-email" id="email" name="email" placeholder="Enter Here">
+
+                <input type="submit" value="Create Account" class="input-create" onclick="alert('Your account has been created.')">
+            </form>
+        </section>
+    </div>
+
+
+
+</body>
+</html>
+
